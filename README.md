@@ -12,12 +12,14 @@ npm install
 
 ## Running the first migration from the main branch
 
+The .env.example file contains the required environment variables for migration
+
 ```bash
 # migrate
 npm run migrate
 
 # seed
-pnpm run seed
+npm run seed
 
 ```
 
